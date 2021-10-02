@@ -1,0 +1,25 @@
+{
+  "name": "gd_32blade",
+  "main": "main.js",
+  "productName": "GD Blade",
+  "description": "GD Blade",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "8.2.5",
+    "electron-builder": "22.9.1"
+  },
+  "build": {
+    "appId": "com.gdevelop.gdblade",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
